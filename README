@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3731
+
+         When you execute a command, its result is showing in the command line.
+         Sometimes you want to yank it, but unfortunately you can not edit the result in the command line.
+
+         Putcmd can help you. 
+         It inserts the command and its result after the current line. Then you can edit them easily.
+
+Tutorial
+         :Putcmd command
+
+         :Putcmd colo
+         :Putcmd set guifont?
+         :Putcmd set tabstop?
